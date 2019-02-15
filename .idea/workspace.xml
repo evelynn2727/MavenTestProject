@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad1c80e-c062-449c-b455-654abec98f97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SecondMavenProject/src/test/java/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/NameVerier.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/NameVerier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/JavaTestMaven-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SecondMavenProject/target/JavaTestMaven-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/src/test/java/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/src/test/java/classes/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondMavenProject/src/test/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/JavaTestMaven-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/classes/dependencies/NameVerier.class" beforeDir="false" afterPath="$PROJECT_DIR$/SecondMavenProject/target/classes/dependencies/NameVerier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SecondMavenProject/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondMavenProject/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondMavenProject/src/test/java/classes/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/test-classes/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMavenProject/target/test-classes/TestMain.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/SecondMavenProject/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,17 +26,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/NameVerier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/test/java/classes/FirstTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/test/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="203">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
@@ -43,22 +50,9 @@
                 <element signature="e#474#475#0" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
                 <element signature="e#710#711#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/test/java/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,9 +79,10 @@
         <option value="$PROJECT_DIR$/SecondMavenProject/src/test/java/MainTest.java" />
         <option value="$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/TestMain.java" />
         <option value="$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/FirstTest.java" />
-        <option value="$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/NameVerier.java" />
         <option value="$PROJECT_DIR$/SecondMavenProject/src/test/java/classes/FirstTest.java" />
         <option value="$PROJECT_DIR$/SecondMavenProject/src/test/java/TestMain.java" />
+        <option value="$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/NameVerier.java" />
+        <option value="$PROJECT_DIR$/SecondMavenProject/src/test/FirstTest.java" />
       </list>
     </option>
   </component>
@@ -167,23 +162,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MavenTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenTestProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenTestProject" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondMavenProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -193,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550255040014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550256473599" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SecondMavenProject/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -202,10 +180,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA-Projects\SecondMavenProject\MavenTestProject\SecondMavenProject\src\test" />
       <recent name="D:\JAVA-Projects\SecondMavenProject\MavenTestProject\SecondMavenProject\src\test\java\classes" />
       <recent name="D:\JAVA-Projects\SecondMavenProject\MavenTestProject\SecondMavenProject\src\main\java\dependencies" />
       <recent name="D:\JAVA-Projects\SecondMavenProject\MavenTestProject\SecondMavenProject\src\test\java" />
-      <recent name="D:\JAVA-Projects\SecondMavenProject\MavenTestProject\SecondMavenProject\src\test" />
       <recent name="D:\JAVA-Projects\SecondMavenProject\MavenTestProject\SecondMavenProject\src" />
     </key>
   </component>
@@ -256,6 +234,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -266,7 +245,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993007" visible="true" weight="0.3715221" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993007" visible="true" weight="0.3715221" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -277,7 +256,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Maven" order="2" visible="true" weight="0.15431164" />
+      <window_info active="true" anchor="right" id="Maven" order="2" visible="true" weight="0.15431164" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
@@ -333,17 +312,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/NameVerier.java">
+    <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/test/java/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="255">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/test/java/classes/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/main/java/dependencies/NameVerier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/test/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#295#296#0" expanded="true" />
@@ -354,20 +346,9 @@
             <element signature="e#474#475#0" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
             <element signature="e#655#656#0" expanded="true" />
             <element signature="e#710#711#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecondMavenProject/src/test/java/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
