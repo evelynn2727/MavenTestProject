@@ -1,41 +1,33 @@
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Test;
+
 
 public class FirstTest{
-    private String pageUrl;
-    private WebDriver driver;
 
-    public FirstTest(String pageUrl, WebDriver driver) {
-        this.pageUrl = pageUrl;
-        this.driver = driver;
+    WebDriver driver;
+    String pageUrl;
+    @Before
+   public void useThis() {
+        System.setProperty("webdriver.chrome.driver", "D:\\JAVA-Projects\\chromedriver_win32\\chromedriver.exe");
+        driver = new ChromeDriver();
+        pageUrl = "https://allegro.pl";
     }
 
-    public FirstTest() {
-    }
 
-    public String getPageUrl() {
-        return pageUrl;
-    }
-
-    public void setPageUrl(String pageUrl) {
-        this.pageUrl = pageUrl;
-    }
-
-    public WebDriver getDriver() {
-        return driver;
-    }
-
-    public void setDriver(WebDriver driver) {
-        this.driver = driver;
-    }
     @Test
     public void openPage(){
         driver.get(pageUrl);
-    }
-    @Test
-    public void titleComparator(){
         assertEquals(driver.getTitle(),pageUrl);
+    }
+
+    @After
+    public void doThis()
+    {
+        driver.quit();
     }
 }
