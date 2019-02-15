@@ -1,3 +1,10 @@
+//package dependencies;
+
+
+import org.openqa.selenium.WebDriver;
+
+import static org.junit.Assert.assertEquals;
+
 public class FirstTest{
     private String pageUrl;
     private WebDriver driver;
@@ -25,6 +32,7 @@ public class FirstTest{
     public void setDriver(WebDriver driver) {
         this.driver = driver;
     }
+
     public void openPage(){
         driver.get(pageUrl);
     }
