@@ -2,22 +2,14 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import static org.junit.Assert.assertEquals;
 
 
-public class FirstTest{
+public class FirstTest extends BasePage{
 
-    WebDriver driver;
     String pageUrl;
     @Before
    public void useThis() {
-        System.setProperty("webdriver.chrome.driver", "D:\\JAVA-Projects\\chromedriver_win32\\chromedriver.exe");
-        driver = new ChromeDriver();
-//        pageUrl = "https://allegro.pl";
         pageUrl="https://pl-pl.facebook.com/";
     }
 
@@ -44,6 +36,6 @@ public class FirstTest{
     @After
     public void doThis()
     {
-        driver.quit();
+        driver.close();
     }
 }
